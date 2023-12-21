@@ -9,12 +9,13 @@ To write a program to find the maximum of a list of numbers.
 2.	Use the sort() function or max() function or use the for loop to find the maximum mark.
 3.	Return the maximum value
 ## Program:
+i)	# To find the maximum of marks using the list method sort.
+```Python
 ''' 
+Program to mark the maximum of marks using the list method sort
 Developed by: B KRISHNAKANTH
 RegisterNumber: 23006762
 '''
-i)	# To find the maximum of marks using the list method sort.
-```Python
 def max_marks(marks):
     marks.sort()
     large = marks[-1]
@@ -25,7 +26,11 @@ def max_marks(marks):
 
 ii)	# To find the maximum marks using the list method max().
 ```Python
-
+''' 
+Program to find the maximum marks using the list method max().
+Developed by: B KRISHNAKANTH
+RegisterNumber: 23006762
+'''
 
 
 
@@ -38,6 +43,11 @@ def max_marks(marks):
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: B krishnakanth
+RegisterNumber: 23006762
+'''
 def max_marks(list1):
     max = list1[0]
     for i in list1:
